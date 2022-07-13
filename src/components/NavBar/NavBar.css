@@ -1,0 +1,31 @@
+.desktop-menu {
+    display: none;
+}
+.menuHamburguesa {
+    font-size: 2rem;
+    color: #1F7B6D;
+}
+.linkMenu{
+    color: #1F7B6D;
+}
+.linkMenu:hover {
+    background-color: #1F7B6D;
+    color: #fff;
+}
+@media only screen and (min-width: 481px) {
+    .mobile-menu {
+        justify-content: flex-end;
+    }
+    .collapse {
+        width: 50%;
+    }
+}
+@media only screen and (min-width:1024px) {
+    .desktop-menu {
+        /* background-color: red; */
+        display: flex;
+    }
+    .mobile-menu {
+        display: none;
+    }
+}
